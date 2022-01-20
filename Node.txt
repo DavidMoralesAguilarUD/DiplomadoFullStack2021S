@@ -1,0 +1,18 @@
+npm init --yes
+
+npm i -g express
+
+npm i -g nodemon
+
+npm i ejs
+
+ try {
+        console.log('hola')
+        const arrayPersonDB = await Person.find()
+        console.log(arrayPersonDB)
+    
+    } catch (error) {
+        console.log(error)
+    }
+
+npm install --save-dev @angular-devkit/build-angular
